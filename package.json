@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nolangh/login/issues"
   },
-  "homepage": "https://github.com/nolangh/login#readme"
+  "homepage": "https://github.com/nolangh/login#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
