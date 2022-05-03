@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div#main
+    nav
+      div
+        a(href='/login') Login  
+      div
+        a(href='/logout') Logout  
+      div
+        a(href='/signup') Signup  
+    article 
+      h1 Backend Day 13 - #{title}
+      p= title
+      div
+        a(href='/students') Protected Student's Page     

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div#main
+    nav
+      div
+        a(href='/') home
+    article
+      h1= Student
+      p Welcome to Dashboard, #{user.displayName}
+      div
+        p -- SHOW A LIST OF CLASSES TAKEN BY THIS STUDENT (with matching sid, firstName and lastName) --
+        a(href='/students/registration') Download Student Registrations
